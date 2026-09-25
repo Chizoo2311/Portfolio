@@ -8,12 +8,16 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="Portfolio.css">
+<link rel="icon" type="image/png" href="assets/jc-logo.png">
 </head>
 <body>
 
 <header class="site">
   <nav>
-    <div class="brand">Jeffrey <span>Cutchado</span></div>
+    <a class="brand" href="#home" aria-label="Jeffrey Cutchado home">
+      <img class="brand-logo" src="assets/jc-logo.png" alt="" width="40" height="40">
+      <span class="brand-name">Jeffrey <span>Cutchado</span></span>
+    </a>
     <div class="navlinks">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
@@ -33,7 +37,7 @@
   </div>
 </header>
 
-<section class="hero">
+<section class="hero" id="home">
   <div class="wrap hero-grid">
     <div>
       <div class="eyebrow"><span class="dot"></span>Open to internship opportunities</div>
